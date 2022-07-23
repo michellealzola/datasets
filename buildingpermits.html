@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Building Permits</title>
+    <meta name="author" content="Michelle Alzola">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/indexstyles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <label>Search by Permit Number</label>
+        <input type="text" id="search_PermitNumber" onkeyup="searchPermitNumber();">
+    </div>
+    <table id="PermitNumber_results"></table>
+   
+    <div>
+        <label>Search Current Status</label>
+        <input type="text" id="search_CurrentStatus" onkeyup="searchCurrentStatus();">
+    </div>
+    <table id="CurrentStatus_results"></table>
+
+    <div>
+        <label>Search by Type of Permit</label>
+        <input type="text" id="search_PermitType" onkeyup="searchPermitType();">
+    </div>
+    <table id="PermitType_results"></table>
+
+    
+
+    <script src="./scripts/buildingpermitsscripts.js"></script>
+
+
+</body>
+
+</html>

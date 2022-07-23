@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Short Term Rentals</title>
+    <meta name="author" content="Michelle Alzola">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/indexstyles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <label>Search by Business ID</label>
+        <input type="text" id="search_BusinessId" onkeyup="searchBusinessId();">
+    </div>
+    <table id="BusinessId_results"></table>
+    
+    <div>
+        <label>Search by Type of Residence</label>
+        <input type="text" id="search_Residence" onkeyup="searchResidence();">
+    </div>
+    <table id="Residence_results"></table>
+
+    <div>
+        <label>Search by Status</label>
+        <input type="text" id="search_Status" onkeyup="searchStatus();">
+    </div>
+    <table id="Status_results"></table>
+
+    
+
+    <script src="./scripts/rentalsscripts.js"></script>
+
+
+</body>
+
+</html>

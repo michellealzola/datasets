@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Datasets Search</title>
+        <meta name = "author" content="Michelle Alzola">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type = "text/css" href="./styles/indexstyles.css"> 
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <header>
+                <img src="./images/LOGOdatasets-03.png" alt="Datasets Search Logo" width="200">
+                <h1>Datasets Search</h1>               
+            </header>
+
+            <main>                
+                <h2>Traffic Incidents</h2>
+                <p>This dataset shows the traffic incidents within Calgary.</p> 
+                <button id="traffic_btn"  onclick="showTraffic();">Search Now</button>  
+                <div id="traffic"></div>
+
+                <h2>Building Permits</h2>
+                <p>This dataset shows the building permit applications made to The City of Calgary's Planning & Development department.</p> 
+                <button onclick="showBuildingPermits();">Search Now</button>  
+                <div id="building_permits"></div>
+
+                <h2>Air Quality Data (near real-time)</h2>
+                <p>This dataset shows the data collected by the Calgary Region Airshed Zone (CRAZ) and submitted to Alberta Environment and Parks (AEP).</p> 
+                <button onclick="showAirQuality();">Search Now</button>  
+                <div id="air_quality"></div>
+
+                <h2>Short Term Rentals</h2>
+                <p>This dataset shows all licenced Short Term Rental locations in the City of Calgary.</p> 
+                <button onclick="showRentals();">Search Now</button>  
+                <div id="short_rentals"></div>
+
+                
+                   
+                       
+
+            </main>
+            <script type="text/javascript" src="./scripts/indexscripts.js"></script>
+            <script type="text/javascript" src="./scripts/trafficscripts.js"></script>
+            <script type="text/javascript" src="./scripts/buildingpermitsscripts.js"></script>
+            <script type="text/javascript" src="./scripts/airqualitycripts.js"></script>
+            <script type="text/javascript" src="./scripts/rentalsscripts.js"></script>
+            
+
+        </div>
+        
+    </body>
+</html>

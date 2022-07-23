@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Air Quality Data (near real-time)</title>
+    <meta name="author" content="Michelle Alzola">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,800;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/indexstyles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <label>Search by Station Name</label>
+        <input type="text" id="search_StationName" onkeyup="searchStationName();">
+    </div>
+    <table id="StationName_results"></table>
+    
+    <div>
+        <label>Search by Parameter</label>
+        <input type="text" id="search_Parameter" onkeyup="searchParameter();">
+    </div>
+    <table id="Parameter_results"></table>
+
+    <div>
+        <label>Search by Value</label>
+        <input type="text" id="search_Value" onkeyup="searchValue();">
+    </div>
+    <table id="Value_results"></table>
+
+    
+
+    <script src="./scripts/airqualitycripts.js"></script>
+
+
+</body>
+
+</html>
